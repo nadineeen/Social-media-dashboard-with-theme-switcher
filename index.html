@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark">
+    <div class="container">
+      <header class="header">
+        <div>
+          <h1>Social Media Dashboard</h1>
+          <p class="subtitle">Total Followers: 23,004</p>
+        </div>
+
+        <hr class="sm-down mb-md mt-md" />
+
+        <div class="theme-control">
+          <p class="subtitle">Dark Mode</p>
+          <label class="switch">
+            <input type="checkbox" id="theme-controller" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </header>
+
+      <div class="grid mb-lg mt-lg">
+        <div class="card actionable accent-border-facebook">
+          <div class="row">
+            <img src="./images/icon-facebook.svg" class="icon" />
+            <p class="subtitle">@nathanf</p>
+          </div>
+          <div>
+            <p class="text-xl">1987</p>
+            <p class="subtitle alt-text">Followers</p>
+          </div>
+          <p class="positive">12 Today</p>
+        </div>
+        <div class="card actionable accent-border-twitter">
+          <div class="row">
+            <img src="./images/icon-twitter.svg" class="icon" />
+            <p class="subtitle">@nathanf</p>
+          </div>
+
+          <div>
+            <p class="text-xl">1044</p>
+            <p class="subtitle alt-text">Followers</p>
+          </div>
+
+          <p class="positive">
+            99 Today
+          </p>
+        </div>
+        <div class="card actionable accent-border-instagram">
+          <div class="row">
+            <img src="./images/icon-instagram.svg" class="icon" />
+            <p class="subtitle">@realnathanf</p>
+          </div>
+
+          <div>
+            <p class="text-xl">11k</p>
+            <p class="subtitle alt-text">Followers</p>
+          </div>
+
+          <p class="positive">1099 Today</p>
+        </div>
+        <div class="card actionable accent-border-youtube">
+          <div class="row">
+            <img src="./images/icon-youtube.svg" class="icon" />
+            <p class="subtitle">Nathan F.</p>
+          </div>
+
+          <div>
+            <p class="text-xl">8239</p>
+            <p class="subtitle alt-text">Subscribers</p>
+          </div>
+          <p class="negative">144 Today</p>
+        </div>
+      </div>
+
+      <h2>Overview - Today</h2>
+
+      <div class="grid mb-md mt-md">
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">87</p>
+            <p class="positive">3%</p>
+          </div>
+        </div>
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Likes</p>
+            <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">52</p>
+            <p class="negative">2%</p>
+          </div>
+        </div>
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Likes</p>
+            <img src="./images/icon-instagram.svg" alt="instagram-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">5462</p>
+            <p class="positive">2257%</p>
+          </div>
+        </div>
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Profile Views</p>
+            <img src="./images/icon-instagram.svg" alt="instagram-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">52k</p>
+            <p class="positive">1375%</p>
+          </div>
+        </div>
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">117</p>
+            <p class="positive">303%</p>
+          </div>
+        </div>
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Likes</p>
+            <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">507</p>
+            <p class="positive">553%</p>
+          </div>
+        </div>
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Likes</p>
+            <img src="./images/icon-youtube.svg" alt="youtube-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">107</p>
+            <p class="negative">19%</p>
+          </div>
+        </div>
+        <div class="card actionable small">
+          <div class="row fluid">
+            <p class="subtitle">Total Views</p>
+            <img src="./images/icon-youtube.svg" alt="youtube-icon" />
+          </div>
+          <div class="row fluid align-end">
+            <p class="text-lg">1407</p>
+            <p class="negative">12%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/nadineeen" target="_blank">nadineeen</a>.
+    </div>
+
+    <script>
+      const body = document.querySelector('body');
+
+      const themeController = document
+        .querySelector('#theme-controller')
+        .addEventListener('change', (e) => {
+          if (e.target.checked) {
+            body.classList.remove('dark');
+            body.classList.add('light');
+          } else {
+            body.classList.remove('light');
+            body.classList.add('dark');
+          }
+        });
+    </script>
+  </body>
+</html>
